@@ -260,6 +260,9 @@ public class UpdateItemActivity extends AppCompatActivity {
 
         }else {
 
+            Intent intent = new Intent(this, AfterCartActivity.class);
+            intent.putExtra(EXTRA_MESSAGE, globTotal);
+            startActivity(intent);
 
 
 
