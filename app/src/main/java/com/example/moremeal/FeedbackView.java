@@ -15,7 +15,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class FeedbackView extends AppCompatActivity {
-
     TextView FeedbackView;
 
     @Override
@@ -49,4 +48,5 @@ public class FeedbackView extends AppCompatActivity {
 
 
     }
+
 }

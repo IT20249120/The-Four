@@ -1,5 +1,6 @@
 package com.example.moremeal;
 
+
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -144,5 +145,4 @@ public class OffersActivity extends AppCompatActivity implements OffersCallback 
         intent.putExtra("KEY", arrayList.get(i).getKey());
         startActivity(intent);
 
-    }
-}
+    }}
