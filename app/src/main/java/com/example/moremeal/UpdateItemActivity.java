@@ -264,7 +264,7 @@ public class UpdateItemActivity extends AppCompatActivity {
             intent.putExtra(EXTRA_MESSAGE, globTotal);
             startActivity(intent);
 
-
+//remove
 
         }
 
